@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Image
       src={HomeImage}
-      alt='Hom page image'
+      alt='Home page image'
       layout='fill'
     />    
   )
