@@ -15,12 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
-      - name: Update System Packages
-        run: sudo apt-get update
+      # - name: Update System Packages
+      #   run: sudo apt-get update
 
-      - name: Install apt-utils
-        run: sudo apt-get install apt-utils
-        
+      # - name: Install apt-utils
+      #   run: sudo apt-get install apt-utils
+
       - uses: actions/checkout@v3
         with:
           submodules: true
